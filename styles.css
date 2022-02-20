@@ -1,0 +1,58 @@
+@import url(//db.onlinewebfonts.com/c/0bbba3e6da511a469bc943bdf02310e7?family=Lucida+Grande);
+
+body{
+    background: hsl(74, 95%, 93%);
+    margin: 0;
+    padding-top: 100px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+
+h1{
+    background:hsl(63, 56%, 38%);
+    border: 4px dashed black;
+    color: white;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+
+
+}
+main{
+    border: 3px double hsl(63, 56%, 10%);
+}
+
+
+article{
+    background: hsl(63, 56%, 78%);
+    border: 4px solid hsl(0, 0%, 100%);
+    margin: 20px;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.circle-one,
+.circle-two{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    display: inline-block;
+    background: hsl(23, 100%, 65%)
+
+}
+.circle-one {
+    background: hsl(0, 0%, 100%);
+    box-shadow: 2px 2px 5px hsl(0, 0%, 100%);
+}
+
+.circle-two{
+    box-shadow: 5px 5px 2px hsl(0, 0%, 0%);
+    margin-left: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width:100%
+}
